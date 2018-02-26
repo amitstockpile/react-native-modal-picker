@@ -12,7 +12,8 @@ import {
     Text,
     ScrollView,
     TouchableOpacity,
-    Platform
+    Platform,
+    ViewPropTypes
 } from 'react-native';
 
 import styles from './style';
@@ -32,7 +33,7 @@ const propTypes = {
     sectionTextStyle: Text.propTypes.style,
     cancelStyle: View.propTypes.style,
     cancelTextStyle: Text.propTypes.style,
-    overlayStyle: View.propTypes.style,
+    overlayStyle: ViewPropTypes.style,
     cancelText: PropTypes.string
 };
 
